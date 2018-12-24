@@ -1,0 +1,30 @@
+
+.slider-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.slider {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.slide-text {
+	text-align: center;
+	background: -webkit-gradient(linear, left bottom, right top, from(#ff8f5a), to(#ff2f96));
+	background: -webkit-linear-gradient(bottom left, #ff8f5a, #ff2f96);
+	background: -o-linear-gradient(bottom left, #ff8f5a, #ff2f96);
+	background: linear-gradient(to top right, #ff8f5a, #ff2f96);
+	margin-top: 0;
+	margin-right: 20px;
+	padding: 10px 0;
+	color: white;
+	border-radius: 0 0 20px 20px;
+}
+
+.slide img {
+	border-radius: 20px 20px 0 0;
+	width: 280px;
+	height: 170px;
+}

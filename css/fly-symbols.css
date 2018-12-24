@@ -1,0 +1,181 @@
+.fly-symbol__one {
+	-webkit-transition: 2s;
+	-o-transition: 2s;
+	transition: 2s;
+	-webkit-animation: fadeIn__fly 2s ease-out;
+	        animation: fadeIn__fly 2s ease-out;
+
+	-webkit-transform: rotate(30deg);
+
+	    -ms-transform: rotate(30deg);
+
+	        transform: rotate(30deg);
+	font-size: 25px;
+	color: #f82370;
+	font-weight: bold;
+}
+
+	@-webkit-keyframes fadeIn__fly {
+		0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+		100% {-webkit-transform: rotate(30deg);transform: rotate(30deg);}
+	}
+
+	@keyframes fadeIn__fly {
+		0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+		100% {-webkit-transform: rotate(30deg);transform: rotate(30deg);}
+	}
+
+.fly-symbol__two {
+	margin: 50px 0 0 200px;
+	-webkit-transition: 2s;
+	-o-transition: 2s;
+	transition: 2s;
+	-webkit-animation: fadeIn__fly_two 2s ease-out;
+	        animation: fadeIn__fly_two 2s ease-out;
+
+	-webkit-transform: rotate(-20deg);
+
+	    -ms-transform: rotate(-20deg);
+
+	        transform: rotate(-20deg);
+	color: #f82370;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+	@-webkit-keyframes fadeIn__fly_two {
+		0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+		100% {-webkit-transform: rotate(-20deg);transform: rotate(-20deg);}
+	}
+
+	@keyframes fadeIn__fly_two {
+		0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+		100% {-webkit-transform: rotate(-20deg);transform: rotate(-20deg);}
+	}
+
+.fly-symbol__three {
+	-webkit-transition: 2s;
+	-o-transition: 2s;
+	transition: 2s;
+	-webkit-animation: fadeIn__fly_three 2s ease-out;
+	        animation: fadeIn__fly_three 2s ease-out;
+
+	-webkit-transform-origin: left;
+
+	    -ms-transform-origin: left;
+
+	        transform-origin: left;
+	-webkit-transform: rotate(25deg);
+	    -ms-transform: rotate(25deg);
+	        transform: rotate(25deg);
+	color: #f82370;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+	@-webkit-keyframes fadeIn__fly_three {
+		0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+		100% {-webkit-transform: rotate(25deg);transform: rotate(25deg);}
+	}
+
+	@keyframes fadeIn__fly_three {
+		0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+		100% {-webkit-transform: rotate(25deg);transform: rotate(25deg);}
+	}
+
+	.fly-symbol__four {
+		-webkit-transform-origin: left;
+		    -ms-transform-origin: left;
+		        transform-origin: left;
+		-webkit-transform: rotate(-20deg);
+		    -ms-transform: rotate(-20deg);
+		        transform: rotate(-20deg);
+		color: white;
+		font-size: 40px;
+		font-weight: bold;
+		margin: 0 20px;
+		-webkit-animation: fadeIn__fly_four 2s ease-out;
+		        animation: fadeIn__fly_four 2s ease-out;
+	}
+
+		@-webkit-keyframes fadeIn__fly_four {
+			0% {font-size: 0}
+			100% {font-size: 40px;}
+		}
+
+		@keyframes fadeIn__fly_four {
+			0% {font-size: 0}
+			100% {font-size: 40px;}
+		}
+
+	.fly-symbol__five {
+		-webkit-transform: rotate(-20deg);
+		    -ms-transform: rotate(-20deg);
+		        transform: rotate(-20deg);
+		color: white;
+		font-size: 30px;
+		font-weight: bold;
+		margin: 0 20px;
+		-webkit-animation: fadeIn__fly_five 2s ease-out;
+		        animation: fadeIn__fly_five 2s ease-out;
+	}
+
+		@-webkit-keyframes fadeIn__fly_five {
+			0% {font-size: 0}
+			100% {font-size: 30px;}
+		}
+
+		@keyframes fadeIn__fly_five {
+			0% {font-size: 0}
+			100% {font-size: 30px;}
+		}
+
+	.fly-symbol__six {
+		-webkit-transform-origin: left;
+		    -ms-transform-origin: left;
+		        transform-origin: left;
+		-webkit-transform: rotate(25deg);
+		    -ms-transform: rotate(25deg);
+		        transform: rotate(25deg);
+		color: white;
+		font-size: 35px;
+		font-weight: bold;
+		margin: 0 auto;
+		-webkit-animation: fadeIn__fly_six 2s ease-out;
+		        animation: fadeIn__fly_six 2s ease-out;
+	}
+
+		@-webkit-keyframes fadeIn__fly_six {
+			0% {font-size: 0}
+			100% {font-size: 35px;}
+		}
+
+		@keyframes fadeIn__fly_six {
+			0% {font-size: 0}
+			100% {font-size: 35px;}
+		}
+
+	.fly-symbol__seven {
+		-webkit-transform-origin: left;
+		    -ms-transform-origin: left;
+		        transform-origin: left;
+		-webkit-transform: rotate(25deg);
+		    -ms-transform: rotate(25deg);
+		        transform: rotate(25deg);
+		color: white;
+		font-size: 45px;
+		font-weight: bold;
+		margin: 0 auto;
+		-webkit-animation: fadeIn__fly_seven 2s ease-out;
+		        animation: fadeIn__fly_seven 2s ease-out;
+	}
+
+		@-webkit-keyframes fadeIn__fly_seven {
+			0% {font-size: 0}
+			100% {font-size: 45px;}
+		}
+
+		@keyframes fadeIn__fly_seven {
+			0% {font-size: 0}
+			100% {font-size: 45px;}
+		}
